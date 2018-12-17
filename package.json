@@ -1,0 +1,19 @@
+{
+  "name": "cli-cool",
+  "version": "1.0.0",
+  "description": "cli tool which is cool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Smolin",
+  "license": "ISC",
+  "bin": {
+    "cli-tool": "./index.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0"
+  }
+}
